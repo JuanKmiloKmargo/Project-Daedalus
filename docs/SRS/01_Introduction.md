@@ -1,0 +1,2 @@
+# Introducción
+El Proyecto Daedalus busca ser una solución a problemas de gestión y organización para la gente, moldeable y personalizable por cada usuario según requiera y le guste. Busca ser una plataforma multipropósito que se enfoca en su simplicidad, adaptabilidad y modularidad. Si un proceso es repetitivo, lento o tedioso para los usuarios, Daedalus busca brindarles las herramientas para que sea más eficiente, cómodo y productivo.
