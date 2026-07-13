@@ -3,6 +3,15 @@
 Desarrollar una plataforma modular y escalable que permita a personas y organizaciones organizar, gestionar y automatizar sus procesos mediante un ecosistema de aplicaciones conectadas sobre un núcleo inteligente. Daedalus busca transformar información dispersa en conocimiento útil, reduciendo el tiempo invertido en tareas repetitivas y facilitando la toma de decisiones.
 ## Visión
 Convertirse en una plataforma de productividad ampliamente adoptada, capaz de adaptarse a distintos sectores mediante módulos especializados, ofreciendo una experiencia intuitiva, flexible y respaldada por inteligencia artificial. Daedalus aspira a ser un ecosistema donde cada usuario pueda construir su propio entorno de trabajo seleccionando únicamente las herramientas que necesita.
+## Principios
+### 1. Modularidad
+Cada funcionalidad debe ser indepenciente, cada cliente depe poder escoger qué módulos necesita. No habrán depedencias innecesarias.
+### 2. Escalabilidad
+El sistema debe funcionar tanto para uso domestico como para grandes empresas sin cambiar su argquitectura
+### 3. Simplicidad
+El usuario nunca debería necesitar leer un manual para hacer una tarea cotidiana. Si una función requiere demasiadas explicaciones, probablemente deba rediseñarse.
+### 4. Automatización
+Siempre que una tarea repetitiva pueda automatizarse, el sistema deberá ofrecer una forma de hacerlo.
 ## Objetivos Generales
 ### Corto Plazo
 - Desarrollar un Núcleo Estable
