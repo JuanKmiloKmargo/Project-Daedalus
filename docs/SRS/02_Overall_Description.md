@@ -1,0 +1,2 @@
+# Descripción General
+La documentaación SRS describe los requisitos funcionales y no funcionales del proyecto, Además de las restricciones. Documentar esto busca que las funciones implementadas tengan una justificación clara basada en problemáticas encontradas de los usuarios. Es un registro que ayuda al proceso de desarrollo en la generación de ideas, resolución de problemas y tener una guía de acción.
