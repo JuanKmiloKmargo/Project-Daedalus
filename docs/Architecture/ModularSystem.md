@@ -6,6 +6,8 @@ Es una unidad funcional alojada en el Core de Daedalus, es decir, busca cumplir 
 Son los módulos que ocupan la primera capa de la gereaquía, quien puede acceder a las funciones de todos los demás Módulos.
 ### 2. Módulos Escenciales
 Están en la capa inferior del diagrama, no tienen módulos inferiores y por lo general cumplen con un conjunto compacto de funciones
+### 3. Módulos Complementarios
+Son todos aquellos módulos intermedios entre la capa de Módulos Escenciales y la capa del Módulo Programa.
 ## Clasificación por Lookdown Functionality (LDFC)
 Esta clasificación se da según la perspectiva de un solo módulo de referencia, clasificando a todos los módulos de capas inferiores así:
 ### 1. Módulos Dependencias
@@ -23,3 +25,8 @@ Estos módulos subelegibles son interesantes para el analisis con LDFC, pues si 
 - Si el módulo dado en 3 es **Elegible** para el módulo dado en 4, entonces el módulo dado en 1 es **Elegible** para el módulo en 4.
 ### 4. Módulos Inconexos
 Su funcionamiento no se puede ligar al del módulo superior, por lo que son funcionalmente inexistentes para el módulo superior.
+## ¿Cómo es la comuniación entre módulos?
+En el modelo por capas los módulos solo se pueden comunicar verticalmente, es decir, dos módulos en la misma capa no pueden enviarse información entre ellos, necesitan de un módulo superior para poder comunicarse. Por lo general, los módulos **Dependencias** tienen una funcionamiento que requiere compartir datos con más módulos, y los módulos **Elegibles** pueden trabajar solo con la información y funcionalidades de submódulos inferiores, propios y del módulo **Programa** para el cuál son Elegibles.
+## ¿Cómo se comunican los módulos con el Core?
+Debido a al planteamiento del modelo los módulos Programa son los únicos que se pueden comunicar con el Core, y entre ellos no es posible comunicarse pues todos los módulos programas se encuentran en la misma capa. Así pues, el Core cumple una función de **canal de comunicación** entre módulos Programa. Ver [Daedalus Core](docs/Architecture/DaedalusCore.md)
+## Insersión de Módulos y Creación de nuevas Capas
